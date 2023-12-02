@@ -2,8 +2,7 @@ package com.android.base.views.common
 
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
-
-
+import androidx.databinding.library.baseAdapters.BR
 
 class UiManager<V : ViewDataBinding, VM : ViewModel>(
   val viewDataBinding: V,
@@ -12,7 +11,7 @@ class UiManager<V : ViewDataBinding, VM : ViewModel>(
 
   init {
     viewDataBinding.setVariable(BR.viewModel, viewModel)
-    viewDataBinding.setVariable(BR.glide, Glide.with(viewDataBinding.root))
+//    viewDataBinding.setVariable(BR.glide, Glide.with(viewDataBinding.root))
     viewDataBinding.executePendingBindings()
   }
 
