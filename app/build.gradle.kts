@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 //    id("com.android.application")
 //    id("kotlin-android")
-    id("androidx.navigation.safeargs.kotlin")
+//    id("androidx.navigation.safeargs.kotlin")
     id("kotlin-kapt")
 
 }
@@ -76,4 +76,3 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
 }
 
-}
