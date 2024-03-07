@@ -13,4 +13,3 @@ UI와 ViewModel의 데이터의 상태관리의 경우 LiveData를 사용해 관
 
 BaseActiviy, BaseFragment, BaseViewModel 들을 사용해 이후 자주 사용하게 될 것 같은 기능을 해당 클래스들에서 관리 할 예정입니다.
 
-~~나 말고 누가 볼까 싶긴 한데 일단 끄적여 봅니다.)~~
