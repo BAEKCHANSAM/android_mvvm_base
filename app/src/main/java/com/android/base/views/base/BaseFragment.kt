@@ -29,6 +29,7 @@ abstract class BaseFragment<V : ViewDataBinding, VM : BaseViewModel> : Fragment(
         savedInstanceState: Bundle?
     ): View? {
 
+        
         val viewLifecycleOwner = this.viewLifecycleOwner
         ui = UiManager(
             DataBindingUtil.inflate(inflater, layoutRes, container, false),
